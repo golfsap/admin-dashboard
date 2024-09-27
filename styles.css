@@ -17,6 +17,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 4fr;
+    height: 100vh;
 }
 
 .sidebar {
@@ -27,40 +28,37 @@ body {
 }
 
 .logo {
-    margin: 10px;
+    margin: 20px;
     display: flex;
     gap: 20px;
-    border: 1px solid burlywood;
 }
 
 .logo a {
     font-size: 40px;
     color: #fff;
-    border: 1px solid beige;
-}
-h1 {
-    border: 1px solid beige;
 }
 
 .nav {
     display: grid;
-    gap: 40px;
+    gap: 50px;
     margin-top: 30px;
-    /* justify-items: start; */
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .icon {
     color: #fff;
 }
-.links-1 {
-    border: 1px solid beige;
-    list-style: none;
+
+.nav li {
+    display: grid;
+    grid-template-columns: 50px 150px;
+    width: 200px;
 }
 
-.links-2 {
-    border: 1px solid beige;
+.links-1, .links-2 {
     list-style: none;
+    display: grid;
+    gap: 10px;
 }
 
 .header {
