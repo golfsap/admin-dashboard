@@ -8,6 +8,8 @@ The main content consists of a card container in which the card layout will auto
 
 Additionally I used font awesome for the icons and got some extra practice with images and designing with CSS.
 
+[View website](https://golfsap.github.io/admin-dashboard/) or go to: https://golfsap.github.io/admin-dashboard/
+
 ## Screenshot
 
 ![screenshot](assets/screenshot.png)
